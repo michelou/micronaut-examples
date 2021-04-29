@@ -4,7 +4,7 @@
   <artifactId>example</artifactId>
   <version>0.1</version>
   <properties>
-    <micronaut.version>1.2.0</micronaut.version>
+    <micronaut.version>2.4.2</micronaut.version>
     <jdk.version>1.8</jdk.version>
     <maven.compiler.target>${jdk.version}</maven.compiler.target>
     <maven.compiler.source>${jdk.version}</maven.compiler.source>
@@ -89,7 +89,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.4</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -110,7 +110,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.6.0</version>
+        <version>3.0.0</version>
         <configuration>
           <executable>java</executable>
           <arguments>

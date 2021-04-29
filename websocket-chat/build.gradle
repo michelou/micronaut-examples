@@ -1,9 +1,9 @@
 plugins {
-    id "io.spring.dependency-management" version "1.0.6.RELEASE"
+    id "io.spring.dependency-management" version "1.0.11.RELEASE"
     id "java"
     id "net.ltgt.apt-eclipse" version "0.21"
     id "net.ltgt.apt-idea" version "0.21"
-    id "com.github.johnrengelman.shadow" version "4.0.2"
+    id "com.github.johnrengelman.shadow" version "6.1.0"
     id "application"
 }
 
@@ -17,7 +17,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom 'io.micronaut:micronaut-bom:1.1.0'
+        mavenBom 'io.micronaut:micronaut-bom:2.4.2'
     }
 }
 

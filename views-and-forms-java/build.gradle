@@ -1,7 +1,7 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 plugins {
     id "net.ltgt.apt-eclipse" version "0.21"
-    id "com.github.johnrengelman.shadow" version "5.2.0"
+    id "com.github.johnrengelman.shadow" version "6.1.0"
     id "application"
     id "groovy"
     id "com.github.erdi.webdriver-binaries" version "2.2"
